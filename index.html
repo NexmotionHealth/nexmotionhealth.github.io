@@ -1,264 +1,277 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Nexmotion | Private Motion Analysis</title>
-    <meta
-      name="description"
-      content="Nexmotion turns running and workout videos into private, on-device motion feedback with clear overlays, coaching cues, and cross-platform plans for iOS and Android."
-    />
-    <link rel="icon" type="image/png" href="./assets/app-icon.png" />
-    <link rel="stylesheet" href="./styles.css" />
-  </head>
-  <body>
-    <div class="site-shell">
-      <header class="topbar">
-        <a class="brand" href="#top" aria-label="Nexmotion home">
-          <img src="./assets/app-icon.png" alt="Nexmotion app icon" />
-          <span>Nexmotion</span>
-        </a>
 
-        <nav class="topnav" aria-label="Primary">
-          <a href="#product">Product</a>
-          <a href="#preview">Preview</a>
-          <a href="#privacy">Privacy</a>
-          <a href="#download">Download</a>
-        </nav>
-      </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nexmotion | Private Motion Analysis</title>
+  <meta name="description"
+    content="Nexmotion turns running and workout videos into private, on-device motion feedback with clear overlays, coaching cues, and cross-platform plans for iOS and Android." />
+  <link rel="icon" type="image/png" href="./assets/app-icon.png" />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
 
-      <main id="top">
-        <section class="hero section">
-          <div class="hero-copy reveal">
-            <p class="eyebrow">Private Motion Lab</p>
-            <h1>Fluid motion feedback that stays on your device.</h1>
-            <p class="hero-text">
-              Nexmotion reads running and workout clips, maps body motion on-device, and turns it into coaching you can act on without shipping your videos to the cloud.
-            </p>
+<body>
+  <div class="site-shell">
+    <header class="topbar">
+      <a class="brand" href="#top" aria-label="Nexmotion home">
+        <img src="./assets/app-icon.png" alt="Nexmotion app icon" />
+        <span>Nexmotion</span>
+      </a>
 
-            <div class="hero-actions" id="download">
-              <a class="cta cta-primary store-link store-link-ios is-disabled" data-platform="ios" href="#" aria-label="Open Nexmotion on the App Store" aria-disabled="true">
-                <span>Download for iPhone</span>
-                <small>App Store link goes here</small>
-              </a>
-              <a class="cta cta-secondary store-link store-link-android is-disabled" data-platform="android" href="#" aria-label="Open Nexmotion on Google Play" aria-disabled="true">
-                <span>Android coming next</span>
-                <small>Google Play link goes here</small>
-              </a>
+      <nav class="topnav" aria-label="Primary">
+        <a href="#product">Product</a>
+        <a href="#preview">Preview</a>
+        <a href="#privacy">Privacy</a>
+        <a href="#download">Download</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero section">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Private Motion Lab</p>
+          <h1>Motion feedback that stays on your device.</h1>
+          <p class="hero-text">
+            Nexmotion reads running and workout clips, maps body motion on-device, and turns it into coaching you can
+            act on without shipping your videos to the cloud.
+          </p>
+
+          <div class="hero-actions" id="download">
+            <a class="cta cta-primary store-link store-link-ios is-disabled" data-platform="ios" href="#"
+              aria-label="Open Nexmotion on the App Store" aria-disabled="true">
+              <span>Download for iPhone</span>
+              <small>App Store link goes here</small>
+            </a>
+            <a class="cta cta-secondary store-link store-link-android is-disabled" data-platform="android" href="#"
+              aria-label="Open Nexmotion on Google Play" aria-disabled="true">
+              <span>Android coming next</span>
+              <small>Google Play link goes here</small>
+            </a>
+          </div>
+
+          <dl class="signal-grid" aria-label="Product highlights">
+            <div>
+              <dt>Inference</dt>
+              <dd>On-device</dd>
             </div>
-
-            <dl class="signal-grid" aria-label="Product highlights">
-              <div>
-                <dt>Inference</dt>
-                <dd>On-device</dd>
-              </div>
-              <div>
-                <dt>Modes</dt>
-                <dd>Running + Workout</dd>
-              </div>
-              <div>
-                <dt>Designed for</dt>
-                <dd>iOS now, Android next</dd>
-              </div>
-            </dl>
-          </div>
-
-          <div class="hero-stage reveal" aria-hidden="true">
-            <div class="orb orb-cyan"></div>
-            <div class="orb orb-amber"></div>
-
-            <div class="device-cluster">
-              <article class="phone-card phone-card-main">
-                <div class="phone-status">
-                  <span>Running Form</span>
-                  <span>82 / 100</span>
-                </div>
-                <div class="wave-grid"></div>
-                <div class="pose-line pose-line-a"></div>
-                <div class="pose-line pose-line-b"></div>
-                <div class="pose-line pose-line-c"></div>
-                <div class="phone-footer">
-                  <div>
-                    <strong>Posture lean</strong>
-                    <p>Stable side profile with actionable cues.</p>
-                  </div>
-                </div>
-              </article>
-
-              <article class="phone-card phone-card-side">
-                <div class="mini-screen">
-                  <span class="mini-tag">Workout Form</span>
-                  <h2>Pose Overlay</h2>
-                  <ul>
-                    <li>Guide layer</li>
-                    <li>Detected pose</li>
-                    <li>Session history</li>
-                  </ul>
-                </div>
-              </article>
+            <div>
+              <dt>Modes</dt>
+              <dd>Running + Workout</dd>
             </div>
-          </div>
-        </section>
-
-        <section class="ticker reveal" aria-label="Core benefits">
-          <span>Upload a side-view clip</span>
-          <span>Run local pose analysis</span>
-          <span>Review motion overlays</span>
-          <span>Compare sessions over time</span>
-        </section>
-
-        <section class="section feature-section" id="product">
-          <div class="section-heading reveal">
-            <p class="eyebrow">What It Does</p>
-            <h2>Built for quick understanding, not vague fitness fluff.</h2>
-          </div>
-
-          <div class="feature-grid">
-            <article class="feature-card reveal">
-              <span class="feature-index">01</span>
-              <h3>Running form reads</h3>
-              <p>Track posture, head position, arm balance, bounce control, and stride cues from a clean side-view clip.</p>
-            </article>
-
-            <article class="feature-card reveal">
-              <span class="feature-index">02</span>
-              <h3>Workout analysis</h3>
-              <p>Review supported lifts like squat and deadlift with pose overlays, movement checks, and plain-language feedback.</p>
-            </article>
-
-            <article class="feature-card reveal">
-              <span class="feature-index">03</span>
-              <h3>Visual proof</h3>
-              <p>See sampled frames, detected skeletons, and guide layers so every result stays inspectable instead of magical.</p>
-            </article>
-
-            <article class="feature-card reveal">
-              <span class="feature-index">04</span>
-              <h3>Cross-platform direction</h3>
-              <p>The pipeline is being shaped around shared on-device landmarks so iOS and Android can speak the same motion language.</p>
-            </article>
-          </div>
-        </section>
-
-        <section class="section preview-section" id="preview">
-          <div class="section-heading narrow reveal">
-            <p class="eyebrow">Screens</p>
-            <h2>Marketing-ready screenshots until real captures are dropped in.</h2>
-          </div>
-
-          <div class="preview-grid">
-            <article class="preview-tile reveal">
-              <div class="preview-topline">
-                <span>Screenshot 01</span>
-                <span>Running</span>
-              </div>
-              <div class="preview-screen preview-running">
-                <div class="screen-shell">
-                  <div class="screen-chip">Running Form</div>
-                  <div class="screen-score">82</div>
-                  <div class="runner-path"></div>
-                  <div class="runner-node node-a"></div>
-                  <div class="runner-node node-b"></div>
-                  <div class="runner-node node-c"></div>
-                </div>
-              </div>
-              <h3>Running analysis</h3>
-              <p>Clear posture scoring, overlay cues, and motion summaries from a side-view run.</p>
-            </article>
-
-            <article class="preview-tile reveal">
-              <div class="preview-topline">
-                <span>Screenshot 02</span>
-                <span>Workout</span>
-              </div>
-              <div class="preview-screen preview-workout">
-                <div class="screen-shell">
-                  <div class="screen-chip">Workout Form</div>
-                  <div class="metric-bar metric-bar-strong"></div>
-                  <div class="metric-bar metric-bar-mid"></div>
-                  <div class="metric-bar metric-bar-soft"></div>
-                  <div class="screen-list">
-                    <span>Squat</span>
-                    <span>Deadlift</span>
-                    <span>On-device</span>
-                  </div>
-                </div>
-              </div>
-              <h3>Workout checks</h3>
-              <p>Lift detection, clip readiness, and clean confidence reads before the heavier scoring pass.</p>
-            </article>
-
-            <article class="preview-tile reveal">
-              <div class="preview-topline">
-                <span>Screenshot 03</span>
-                <span>History</span>
-              </div>
-              <div class="preview-screen preview-history">
-                <div class="screen-shell">
-                  <div class="screen-chip">Session Trend</div>
-                  <div class="history-line history-line-a"></div>
-                  <div class="history-line history-line-b"></div>
-                  <div class="history-line history-line-c"></div>
-                  <div class="screen-footer-note">Local-only history with overlays</div>
-                </div>
-              </div>
-              <h3>Session memory</h3>
-              <p>Quick trend context and session recall without turning the product into spreadsheet fitness software.</p>
-            </article>
-          </div>
-        </section>
-
-        <section class="section download-section">
-          <div class="download-panel reveal">
-            <div class="download-copy">
-              <p class="eyebrow">Get The App</p>
-              <h2>One place for store links when they are ready.</h2>
-              <p>
-                The iPhone app is the first release. Android is planned next. Replace the placeholder URLs in `script.js` and these buttons will become live without touching the layout.
-              </p>
+            <div>
+              <dt>Designed for</dt>
+              <dd>iOS now, Android next</dd>
             </div>
-
-            <div class="download-actions">
-              <a class="store-badge store-link store-link-ios is-disabled" data-platform="ios" href="#" aria-disabled="true">
-                <span class="store-kicker">iPhone</span>
-                <strong>App Store</strong>
-              </a>
-              <a class="store-badge store-link store-link-android is-disabled" data-platform="android" href="#" aria-disabled="true">
-                <span class="store-kicker">Android</span>
-                <strong>Google Play</strong>
-              </a>
-            </div>
-          </div>
-        </section>
-
-        <section class="section split-section" id="privacy">
-          <article class="split-card reveal">
-            <p class="eyebrow">Privacy</p>
-            <h2>Your motion clips stay yours.</h2>
-            <p>
-              Nexmotion is being built around local analysis so the app does not stop working when the network disappears, and your raw videos do not need to leave the device.
-            </p>
-          </article>
-
-          <article class="split-card reveal">
-            <p class="eyebrow">Roadmap</p>
-            <h2>One product surface, three repos.</h2>
-            <p>
-              iOS app, Android app, and a separate marketing site. The website stays lean. The app repos stay focused on product behavior and release quality.
-            </p>
-          </article>
-        </section>
-      </main>
-
-      <footer class="footer">
-        <p>© <span id="year"></span> Nexmotion</p>
-        <div>
-          <a href="#download">Get the app</a>
-          <a href="#privacy">Privacy-first design</a>
+          </dl>
         </div>
-      </footer>
-    </div>
 
-    <script src="./script.js"></script>
-  </body>
+        <div class="hero-stage reveal" aria-hidden="true">
+          <div class="orb orb-cyan"></div>
+          <div class="orb orb-amber"></div>
+
+          <div class="device-cluster">
+            <article class="phone-card phone-card-main">
+              <div class="phone-status">
+                <span>Running Form</span>
+                <span>82 / 100</span>
+              </div>
+              <div class="wave-grid"></div>
+              <div class="pose-line pose-line-a"></div>
+              <div class="pose-line pose-line-b"></div>
+              <div class="pose-line pose-line-c"></div>
+              <div class="phone-footer">
+                <div>
+                  <strong>Posture lean</strong>
+                  <p>Stable side profile with actionable cues.</p>
+                </div>
+              </div>
+            </article>
+
+            <article class="phone-card phone-card-side">
+              <div class="mini-screen">
+                <span class="mini-tag">Workout Form</span>
+                <h2>Pose Overlay</h2>
+                <ul>
+                  <li>Guide layer</li>
+                  <li>Detected pose</li>
+                  <li>Session history</li>
+                </ul>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="ticker reveal" aria-label="Core benefits">
+        <span>Upload a side-view clip</span>
+        <span>Run local pose analysis</span>
+        <span>Review motion overlays</span>
+        <span>Compare sessions over time</span>
+      </section>
+
+      <section class="section feature-section" id="product">
+        <div class="section-heading reveal">
+          <p class="eyebrow">What It Does</p>
+          <h2>Built for quick understanding, not vague fitness fluff.</h2>
+        </div>
+
+        <div class="feature-grid">
+          <article class="feature-card reveal">
+            <span class="feature-index">01</span>
+            <h3>Running form reads</h3>
+            <p>Track posture, head position, arm balance, bounce control, and stride cues from a clean side-view clip.
+            </p>
+          </article>
+
+          <article class="feature-card reveal">
+            <span class="feature-index">02</span>
+            <h3>Workout analysis</h3>
+            <p>Review supported lifts like squat and deadlift with pose overlays, movement checks, and plain-language
+              feedback.</p>
+          </article>
+
+          <article class="feature-card reveal">
+            <span class="feature-index">03</span>
+            <h3>Visual proof</h3>
+            <p>See sampled frames, detected skeletons, and guide layers so every result stays inspectable instead of
+              magical.</p>
+          </article>
+
+          <article class="feature-card reveal">
+            <span class="feature-index">04</span>
+            <h3>Cross-platform direction</h3>
+            <p>The pipeline is being shaped around shared on-device landmarks so iOS and Android can speak the same
+              motion language.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section preview-section" id="preview">
+        <div class="section-heading narrow reveal">
+          <p class="eyebrow">Screens</p>
+          <h2>Marketing-ready screenshots until real captures are dropped in.</h2>
+        </div>
+
+        <div class="preview-grid">
+          <article class="preview-tile reveal">
+            <div class="preview-topline">
+              <span>Screenshot 01</span>
+              <span>Running</span>
+            </div>
+            <div class="preview-screen preview-running">
+              <div class="screen-shell">
+                <div class="screen-chip">Running Form</div>
+                <div class="screen-score">82</div>
+                <div class="runner-path"></div>
+                <div class="runner-node node-a"></div>
+                <div class="runner-node node-b"></div>
+                <div class="runner-node node-c"></div>
+              </div>
+            </div>
+            <h3>Running analysis</h3>
+            <p>Clear posture scoring, overlay cues, and motion summaries from a side-view run.</p>
+          </article>
+
+          <article class="preview-tile reveal">
+            <div class="preview-topline">
+              <span>Screenshot 02</span>
+              <span>Workout</span>
+            </div>
+            <div class="preview-screen preview-workout">
+              <div class="screen-shell">
+                <div class="screen-chip">Workout Form</div>
+                <div class="metric-bar metric-bar-strong"></div>
+                <div class="metric-bar metric-bar-mid"></div>
+                <div class="metric-bar metric-bar-soft"></div>
+                <div class="screen-list">
+                  <span>Squat</span>
+                  <span>Deadlift</span>
+                  <span>On-device</span>
+                </div>
+              </div>
+            </div>
+            <h3>Workout checks</h3>
+            <p>Lift detection, clip readiness, and clean confidence reads before the heavier scoring pass.</p>
+          </article>
+
+          <article class="preview-tile reveal">
+            <div class="preview-topline">
+              <span>Screenshot 03</span>
+              <span>History</span>
+            </div>
+            <div class="preview-screen preview-history">
+              <div class="screen-shell">
+                <div class="screen-chip">Session Trend</div>
+                <div class="history-line history-line-a"></div>
+                <div class="history-line history-line-b"></div>
+                <div class="history-line history-line-c"></div>
+                <div class="screen-footer-note">Local-only history with overlays</div>
+              </div>
+            </div>
+            <h3>Session memory</h3>
+            <p>Quick trend context and session recall without turning the product into spreadsheet fitness software.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section download-section">
+        <div class="download-panel reveal">
+          <div class="download-copy">
+            <p class="eyebrow">Get The App</p>
+            <h2>One place for store links when they are ready.</h2>
+            <p>
+              The iPhone app is the first release. Android is planned next. Replace the placeholder URLs in `script.js`
+              and these buttons will become live without touching the layout.
+            </p>
+          </div>
+
+          <div class="download-actions">
+            <a class="store-badge store-link store-link-ios is-disabled" data-platform="ios" href="#"
+              aria-disabled="true">
+              <span class="store-kicker">iPhone</span>
+              <strong>App Store</strong>
+            </a>
+            <a class="store-badge store-link store-link-android is-disabled" data-platform="android" href="#"
+              aria-disabled="true">
+              <span class="store-kicker">Android</span>
+              <strong>Google Play</strong>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section split-section" id="privacy">
+        <article class="split-card reveal">
+          <p class="eyebrow">Privacy</p>
+          <h2>Your motion clips stay yours.</h2>
+          <p>
+            Nexmotion is being built around local analysis so the app does not stop working when the network disappears,
+            and your raw videos do not need to leave the device.
+          </p>
+        </article>
+
+        <article class="split-card reveal">
+          <p class="eyebrow">Roadmap</p>
+          <h2>One product surface, three repos.</h2>
+          <p>
+            iOS app, Android app, and a separate marketing site. The website stays lean. The app repos stay focused on
+            product behavior and release quality.
+          </p>
+        </article>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© <span id="year"></span> Nexmotion</p>
+      <div>
+        <a href="#download">Get the app</a>
+        <a href="#privacy">Privacy-first design</a>
+      </div>
+    </footer>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+
 </html>
